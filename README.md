@@ -27,7 +27,7 @@ This node operates as part of a **wireless star-topology network** centrally orc
 - [Getting Started](#-getting-started)
 - [Configuration](#-configuration)
 - [Related Repositories](#-related-repositories)
-- [Author & Thesis Context](#-author--thesis-context)
+- [Academic Context & Credits](#academic-context--credits)
 - [License](#-license)
 
 ---
@@ -193,7 +193,7 @@ Precise modal analysis (such as Operational Modal Analysis - OMA) across distrib
 ```
        Node (ESP32-S3)                              Gateway (Raspberry Pi)
               │                                                │
-       t1 ────┼────── CMD_TIME_SYNC_REQUEST ─────────────────►│ t2
+       t1 ────┼────── CMD_TIME_SYNC_REQUEST ──────────────────►│ t2
               │                                                │
               │                                                │
        t4 ◄───┼────── CMD_TIME_SYNC_RESPONSE (t2, t3) ─────────┼ t3
@@ -313,11 +313,11 @@ Configured automatically during the `CONFIG` command from the master gateway:
 
 ---
 
-## 🎓 Author & Thesis Context
+## Academic Context & Credits
 
-This project is part of the **Undergraduate Degree Thesis (*Trabajo Especial de Grado - TEG*)**:
-* **Title**: *Design and Implementation of a Low-Cost Wireless Smart Sensor Network for Structural Health Monitoring (SHM) in Civil Structures.*
-* **Author**: [Jorge D. Ramírez P.](https://github.com/jorgedrp)
+This project was developed as part of an **Undergraduate Degree Thesis (Trabajo Especial de Grado - TEG)** at **Universidad Central de Venezuela (UCV)**, Faculty of Engineering.
+
+- **Author:** Jorge D. Ramírez. P. ([@jorgedrp](https://github.com/jorgedrp))
 
 ---
 
