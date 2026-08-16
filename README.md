@@ -158,8 +158,8 @@ graph TD
 | Color | Mode / State | Description |
 |---|---|---|
 | 🔵 **Blue** | **Standby Mode** | Idle, listening for commands on signaling channel. |
-| 🟢 **Green** | **Time Mode** | Actively sampling vibration and environmental data. |
-| 🔴 **Red** | **Event Mode** | Armed in circular buffer mode; waiting for vibration trigger. |
+| 🔴 **Red** | **Time Mode** | Actively sampling vibration and environmental data. |
+| 🟢 **Green** | **Event Mode** | Armed in circular buffer mode; waiting for vibration trigger. |
 | 🟡 **Yellow** | **Clock Synchronization** | Performing RTT round-trip sync or skew calibration with Gateway. |
 
 ---
@@ -317,7 +317,7 @@ Configured automatically during the `CONFIG` command from the master gateway:
 
 This project is part of the **Undergraduate Degree Thesis (*Trabajo Especial de Grado - TEG*)**:
 * **Title**: *Design and Implementation of a Low-Cost Wireless Smart Sensor Network for Structural Health Monitoring (SHM) in Civil Structures.*
-* **Author**: [Jorge D. Rodriguez P.](https://github.com/jorgedrp)
+* **Author**: [Jorge D. Ramírez P.](https://github.com/jorgedrp)
 
 ---
 
