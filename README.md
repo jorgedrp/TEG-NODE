@@ -9,7 +9,7 @@
 
 Firmware for a distributed, low-cost **Smart Wireless Sensor Node** designed for **Structural Health Monitoring (SHM)** of civil infrastructure. Built upon an **ESP32-S3** microcontroller with **Octal PSRAM**, an **MPU-6050** 6-DoF IMU, a **BME280** environmental sensor, and an **Ai-Thinker RA-02 (SX1278)** LoRa transceiver.
 
-This node operates as part of a **wireless star-topology network** centrally orchestrated by a Raspberry Pi-based gateway ([TEG-GATEWAY](https://github.com/jorgedrp/TEG-GATEWAY)).
+This node operates as part of a **wireless star-topology network** centrally orchestrated by a Raspberry Pi-based gateway ([TEG-GATEWAY](https://github.com/jorgedrp/TEG-GATEWAY-2)).
 
 ---
 
@@ -309,7 +309,7 @@ Configured automatically during the `CONFIG` command from the master gateway:
 
 ## 🔗 Related Repositories
 
-* 🖥️ **Central Gateway / Master Node**: [TEG-GATEWAY](https://github.com/jorgedrp/TEG-GATEWAY) — Raspberry Pi orchestrator firmware, star network controller, data collection engine, and central storage.
+* 🖥️ **Central Gateway / Master Node**: [TEG-GATEWAY](https://github.com/jorgedrp/TEG-GATEWAY-2) — Raspberry Pi orchestrator firmware, star network controller, data collection engine, and central storage.
 
 ---
 
